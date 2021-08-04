@@ -1,0 +1,76 @@
+body{
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+#videoBG{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
+}
+#header{
+    height: auto;
+    overflow:hidden;
+}
+
+#conteudo{
+    position: absolute;
+    top:25%;  
+}
+#div-logo{
+    text-align: center;
+}
+#logo{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 40px;
+    color: #e3dff0;
+    padding: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+    text-shadow: 2px 2px 6px rgba(15, 241, 241, 0.883);
+    box-shadow:  2px 2px 3px rgb(92, 107, 107);
+    
+}
+
+#title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1em;
+    color: rgb(176, 176, 240);
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 2px 2px 3px rgba(36, 37, 37, 0.883);
+}
+
+  
+#menu{
+    text-align: center;  
+}
+
+.item{
+    list-style: none;
+    margin-top: 2em;
+    font-size: 18px;
+}
+ 
+.nome-menu{
+    margin-right: 1.25rem;
+    text-decoration: none;
+    color: rgb(59, 59, 75);  
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgb(137, 171, 245) 0%, rgba(245,247,252,1) 100.2% );
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow:  2px 2px 3px rgb(57, 65, 65);
+}
+ 
+.nome-menu:hover{
+    text-decoration: underline;
+    color: rgb(78, 131, 8);
+}
+
+
+
+
