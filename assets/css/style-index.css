@@ -27,17 +27,17 @@ body{
 }
 #logo{
     font-family: 'Rajdhani', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #logo{background-image: linear-gradient( to right,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );}
 
 #logo{
     color: #e3dff0;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
     text-shadow: 2px 2px 6px rgba(15, 241, 241, 0.883);
-    box-shadow:  2px 2px 3px rgb(92, 107, 107);  
+    box-shadow:  2px 2px 5px rgb(16, 17, 17);  
     transition: 0.3s;
     background-size: 200% auto;
 }
@@ -61,7 +61,7 @@ body{
 #menu{
     text-align: center;  
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 
@@ -73,14 +73,14 @@ a{
 .btn-grad {
    
    margin: 10px;
-   padding: 15px 45px;
+   padding: 10px 20px;
    text-align: center;
    text-transform: uppercase;
    transition: 0.5s;
    background-size: 200% auto;
    color: rgb(255, 236, 236);            
    box-shadow: 0 0 5px rgb(61, 58, 58);
-   border-top-left-radius: 20px; 
+   border-radius: 50px;
    
  }
 
@@ -90,6 +90,53 @@ a{
    text-decoration: none;
  }
 
+#contato{
+    padding: 5px;
+    width: 350px;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(44, 62, 78, 0.602) 0%, #49a09dca  51%, #29252cd2  100%);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    text-shadow: 1px 1px 1px rgb(58, 54, 54);
+    margin: auto;
+    bottom: 10%;
+}
 
+.titulo-servicos{
+    margin-top: 1em;
+    color: cornsilk;
+    margin-left: 15px;
+}
+.dados-contato{
+    color: cornsilk; 
+    text-decoration: none;
+    float:right;
+    max-width:200px;
+    margin-left: 6px;
+    margin-top: 1px;
+}  
 
+.dados-contato:hover{
+    color: rgb(131, 129, 129);
+}
+.img-contato{
+    
+    margin-left: 15px;
+}
+.grupo{
+    float:left;
+    margin-top:10px;
+}
+
+footer, #copyright{
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 1px rgb(58, 54, 54);
+}
 
